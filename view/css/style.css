@@ -1,12 +1,10 @@
 /*----------------------HEADER-------------------------*/
-
-.menu_visible{
-    width : 80%;
-    margin-left: 20%;
+header{
+    margin-top: 1%;
 }
 .link_menu{
+    margin-top: 2%;
     display: inline-block;
-    margin-right: 25%;
     color: red;
 }
 .link_menu a{
@@ -15,19 +13,24 @@
     display: inline-block;
 }
 .link_menu a:hover{
-    border-bottom: 4px solid red ;
+    border-bottom: 5px solid red ;
 }
 .link_menu img{
     display: inline-block;
+    color : red;
 }
 .link_menu p{
     display: inline-block;
 }
-header img{
-    margin-right: 25%;
-}
 .renseignements{
-    display: inline-block;
+    margin-top: 2%;
+}
+.renseignements p{
+    font-family: Montserrat;
+    font-size: 0.9em;
+}
+.renseignements p:last-child{
+    color: red;
 }
 
 
@@ -40,7 +43,7 @@ header img{
     position: absolute;
 }
 .menu .visu_menu{
-    /*transform: rotateY(45deg);*/
+    transform: rotateY(45deg);
     display: inline;
 
 }
@@ -57,4 +60,33 @@ header img{
 .menu .close_menu{
     display: none;
     position: absolute;
+}
+
+
+
+
+/*--------------------------------------PAGE ACCEUIL-----------------------*/
+
+.text_accroche{
+    text-align: center;
+    margin-top: 7%;
+    font-family: Montserrat;
+    font-size: 2.7em;
+}
+
+
+
+
+
+/*--------------------------------------FOOTER--------------------------------*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer img{
+    display: inline-block;
 }

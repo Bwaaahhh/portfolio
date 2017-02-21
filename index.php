@@ -1,7 +1,6 @@
 <?php
 
 $page = "index.php";
-
 define('WEBROOT', str_replace($page, '', $_SERVER['SCRIPT_NAME']));
 
     $page = "view/index.php";
