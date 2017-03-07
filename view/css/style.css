@@ -1,19 +1,20 @@
 /*----------------------HEADER-------------------------*/
-header{
-    margin-top: 1%;
+body{
+    position: relative;
 }
 .link_menu{
     margin-top: 2%;
     display: inline-block;
-    color: red;
+    color: black;
 }
 .link_menu a{
     text-decoration: none;
-    color: red;
+    color: black;
     display: inline-block;
 }
 .link_menu a:hover{
     border-bottom: 5px solid red ;
+    color: red;
 }
 .link_menu img{
     display: inline-block;
@@ -36,30 +37,56 @@ header{
 
 /*--------------------------------MENU--------------------------*/
 
+
 .menu{
-    width:inherit;
+    visibility: hidden;
+    width: inherit;
     width: 100%;
     height: 100%;
     position: absolute;
+    z-index: 2;
+    text-align: center;
+    /*display: none;*/
 }
 .menu .visu_menu{
-    transform: rotateY(45deg);
-    display: inline;
-
+    height: 100%;
+    overflow: hidden;
 }
 .menu .visu_menu div{
     margin: 0;
-    display: inline;
-    width: 30%;
-    background-color: rgba(255, 0, 0, 0.5);
+    height: 100%;
+    background-color: black;
+}
+.menu .visu_menu div:hover{
+    background-color: rgba(0, 0, 0, 0.9);
 }
 .menu .visu_menu div p{
-    display: inline;
-    margin-left: 0;
+    padding-top: 60%;
+    color: red;
+    font-size: 3rem;
+}
+.menu .visu_menu div p:hover{
+    color: white;
+    border-bottom: 4px solid white ;
 }
 .menu .close_menu{
-    display: none;
     position: absolute;
+    color: red;
+}
+.menu .close_menu:hover{
+    color: white;
+}
+.menu .close_menu div i{
+    color: red;
+}
+.menu .close_menu div p{
+    display: inline-block;
+}
+.fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
 }
 
 
@@ -74,7 +101,46 @@ header{
     font-size: 2.7em;
 }
 
-
+.projet{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    position: relative;
+    overflow: hidden;
+    /*z-index: 2;*/
+}
+.focus_projet{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.projet img:hover ~ .focus_projet{
+    top: 0px;
+}
+.focus_projet:hover{
+    top: 0px;
+}
+.focus_projet p:first-child{
+    padding-top: 20%;
+    font-size: 1.5rem;
+}
+.focus_projet p:nth-child(2){
+    font-size: 3rem;
+    padding-top: 5%;
+}
+.focus_projet button{
+    font-size: 1.5rem;
+    padding-top: 10%;
+}
+.focus_projet button:hover{
+    color: red;
+    border-bottom: 3px solid red;
+}
 
 
 
@@ -84,9 +150,14 @@ footer{
     background-color: black;
     color: white;
     text-transform: uppercase;
+    width: 100%;
     padding-top: 5%;
     padding-bottom: 5%;
+    display: inline-block;
 }
-footer img{
+footer div img{
+    display: inline-block;
+}
+footer div p{
     display: inline-block;
 }
