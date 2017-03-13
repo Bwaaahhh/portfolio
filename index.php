@@ -1,4 +1,6 @@
 <?php
+require_once 'controller/pdo.php';
+require_once 'controller/class/Portfolio.php';
 
 $page = "index.php";
 define('WEBROOT', str_replace($page, '', $_SERVER['SCRIPT_NAME']));

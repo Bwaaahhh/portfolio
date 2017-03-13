@@ -15,8 +15,20 @@
     </div>
     <div class="projet">
         <img src="view/images/projet2.jpg" alt="">
+        <div class="focus_projet">
+            <p>2017</p>
+            <p>APP PROJET</p>
+            <p>#</p>
+            <button type="button" name="button">decouvrir ce projet</button>
+        </div>
     </div>
     <div class="projet">
         <img src="view/images/projet3.jpg" alt="">
+        <div class="focus_projet">
+            <p>2017</p>
+            <p>APP PROJET</p>
+            <p>#</p>
+            <button type="button" name="button">decouvrir ce projet</button>
+        </div>
     </div>
 </div>

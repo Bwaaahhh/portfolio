@@ -1,0 +1,17 @@
+footer{
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: inline-block;
+    div{
+        img{
+            display: inline-block;
+        }
+        p{
+            display: inline-block;
+        }
+    }
+}
