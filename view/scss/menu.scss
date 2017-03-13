@@ -1,0 +1,52 @@
+.menu{
+    visibility: hidden;
+    width: inherit;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    /*display: none;*/
+    .visu_menu{
+        height: 100%;
+        overflow: hidden;
+        div{
+            margin: 0;
+            height: 100%;
+            background-color: black;
+            p{
+                padding-top: 60%;
+                color: red;
+                font-size: 3rem;
+            }
+            p:hover{
+                color: white;
+                border-bottom: 4px solid white ;
+            }
+        }
+        div:hover{
+            background-color: rgba(0, 0, 0, 0.9);
+        }
+    }
+    .close_menu{
+        position: absolute;
+        color: red;
+        div{
+            i{
+            color: red;
+            }
+            p{
+                display: inline-block;
+            }
+        }
+    }
+    .close_menu:hover{
+        color: white;
+    }
+}
+.fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+}
