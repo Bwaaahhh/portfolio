@@ -31,6 +31,7 @@ $color : red ;
         margin-top: 5%;
     }
     #formTroisieme{
+        margin-bottom: 5%;
         select{
             display : inline ;
             width : 25% ;
@@ -43,25 +44,30 @@ $color : red ;
             -moz-appearance:none; /* Firefox */
             -webkit-appearance: none;
             background: url(../images/arrow-down.png) no-repeat right;
-            background-position-x: 150px;
+            background-position-x: 185px;
         }
         select:focus{
             outline: none;
             border : none;
-            font-size: 1rem;
         }
+    }
+    .bye{
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     #formButton{
         font-size: 0.8rem;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-bottom: 5%;
         button{
             text-transform: uppercase;
             padding-bottom: 3%;
+            border-bottom: 5px solid transparent;
         }
         button:hover{
             color: red;
             border-bottom: 5px solid red;
         }
     }
+
 }

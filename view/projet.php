@@ -1,7 +1,7 @@
 <div class="row">
     <div class="textProjet">
         <p>Jetez un coup d'oeil</p>
-        <p>à quelques-une des mes</p>
+        <p>à quelques-une de mes</p>
         <p>dernières réalisations:</p>
     </div>
 </div>

@@ -1,36 +1,38 @@
 body{
     position: relative;
 }
-.link_menu{
-    margin-top: 2%;
-    display: inline-block;
-    color: black;
-    z-index: 5;
-    a{
-        text-decoration: none;
+header{
+    .link_menu{
+        margin-top: 2%;
+        display: inline-block;
         color: black;
+        z-index: 5;
+        a{
+            text-decoration: none;
+            color: black;
+            display: inline-block;
+        }
+        a:hover{
+            border-bottom: 5px solid red ;
+            color: red;
+        }
+        p{
+            display: inline-block;
+        }
+    }
+    img{
         display: inline-block;
+        color : red;
+        margin-top: 2%;
     }
-    a:hover{
-        border-bottom: 5px solid red ;
-        color: red;
-    }
-    p{
-        display: inline-block;
-    }
-}
-img{
-    display: inline-block;
-    color : red;
-    margin-top: 2%;
-}
-.renseignements{
-    margin-top: 2%;
-    p{
-        font-family: Montserrat;
-        font-size: 0.9em;
-    }
-    p:last-child{
-        color: red;
+    .renseignements{
+        margin-top: 2%;
+        p{
+            font-family: Montserrat;
+            font-size: 0.9em;
+        }
+        p:last-child{
+            color: red;
+        }
     }
 }

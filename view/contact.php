@@ -12,11 +12,11 @@
             <p>pour discuter</p>
         </div>
         <div class="" id="formTroisieme">
-            <p>d'un</p>
+            <p>d'un(e)</p>
             <select class="" name="">
-                <option value="">entretien</option>
-                <option value="">offre d'emploi</option>
                 <option value="">projet</option>
+                <option value="">offre d'emploi</option>
+                <option value="">entretien</option>
             </select>.
         </div>
         <p>Merci d'avance de bien vouloir me répondre</p>
@@ -28,11 +28,11 @@
         </div>
         <div class="" id="formCinq">
             <p>simpement par téléphone au</p>
-            <input type="text" name="" value=" +33 .....">
+            <input type="text" name="" value="+33">
             <i class="fa fa-pencil" aria-hidden="true"></i>
         </div>
-        <div class="row">
-            <p class="large-2 large-centered columns">à bientot</p>
+        <div class="row bye">
+            <p class="large-2 large-centered columns">À bientot</p>
         </div>
         <div class="row">
             <p class="large-2 large-centered columns">//</p>
