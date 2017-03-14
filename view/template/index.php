@@ -6,8 +6,8 @@
         <link rel="stylesheet" type="text/css" href="view/template/foundation.min.css"/>
         <link rel="stylesheet" href="view/template/font-awesome/css/font-awesome.min.css" />
         <link rel="stylesheet" type="text/css" href="view/css/style.css" />
-        <link rel="stylesheet" type="text/css" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js">
-        <link rel="stylesheet" type="text/javascript" src="view/js/js.js">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
+        <script type="text/javascript" src="view/js/js.js"> </script>
     </head>
     <body>
         <header>
@@ -27,7 +27,7 @@
             <div class="row menu_visible ">
                 <div class="link_menu medium-2 columns">
                     <a href="#" >
-                        <i class="fa fa-bars" aria-hidden="true"></i>
+                        <i class="fa fa-bars fa-2x " aria-hidden="true"></i>
                         <p>MENU</p>
                     </a>
                 </div>

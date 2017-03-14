@@ -5,6 +5,7 @@ body{
     margin-top: 2%;
     display: inline-block;
     color: black;
+    z-index: 5;
     a{
         text-decoration: none;
         color: black;
@@ -21,6 +22,7 @@ body{
 img{
     display: inline-block;
     color : red;
+    margin-top: 2%;
 }
 .renseignements{
     margin-top: 2%;
