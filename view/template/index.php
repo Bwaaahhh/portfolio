@@ -19,7 +19,7 @@
                     </div>
                     <div class="visu_menu">
                         <div class="large-4 columns"><a href="index.php?page=apropos"><p>A PROPOS</p></a></div>
-                        <div class="large-4 columns"><a href="index.php?page=projets"><p>PROJETS</p></a></div>
+                        <div class="large-4 columns"><a href="index.php?page=projet"><p>PROJETS</p></a></div>
                         <div class="large-4 columns end"><a href="index.php?page=contact"><p>CONTACT</p></a></div>
                     </div>
                 </div>
@@ -32,7 +32,7 @@
                     </a>
                 </div>
                 <img class="medium-1 columns medium-offset-3 " src="view/images/logo.png" alt="Un C blanc dans un carré noir. Logo du site">
-                <div class="renseignements medium-2 medium-offset-3 columns end">
+                <div class="renseignements medium-2 medium-offset-3 columns">
                     <p>07.00.00.00.00</p>
                     <p>lalalala@gmail.com</p>
                 </div>
