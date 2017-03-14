@@ -15,19 +15,21 @@
             <p>d'un</p>
             <select class="" name="">
                 <option value="">entretien</option>
-                <option value="">d'une offre d'emploi</option>
-                <option value="">d'un projet</option>
-            </select><i class="fa fa-arrow-down" aria-hidden="true"></i>.
+                <option value="">offre d'emploi</option>
+                <option value="">projet</option>
+            </select>.
         </div>
         <p>Merci d'avance de bien vouloir me répondre</p>
         <div class="" id="formQuatre">
             <p>à</p>
-            <input type="text" name="" value="mon adress e-mail"><i class="fa fa-pencil" aria-hidden="true"></i>
+            <input type="text" name="" value="mon adress e-mail">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
             <p>ou bien contactez-moi</p>
         </div>
         <div class="" id="formCinq">
             <p>simpement par téléphone au</p>
             <input type="text" name="" value=" +33 .....">
+            <i class="fa fa-pencil" aria-hidden="true"></i>
         </div>
         <div class="row">
             <p class="large-2 large-centered columns">à bientot</p>

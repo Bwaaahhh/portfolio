@@ -12,7 +12,7 @@
     <body>
         <header>
             <div class="row fullWidth">
-                <div class="menu large-12 columns">
+                <div class="menu large-12">
                     <div class="close_menu large-4">
                         <i class="fa fa-times" aria-hidden="true"></i>
                         <p>fermer</p>
