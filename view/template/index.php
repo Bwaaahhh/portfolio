@@ -8,6 +8,9 @@
         <link rel="stylesheet" type="text/css" href="view/css/style.css" />
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"> </script>
         <script type="text/javascript" src="view/js/js.js"> </script>
+        <script type="text/javascript" src="view/js/formulaire.js"></script>
+
+        </script>
     </head>
     <body>
         <header>
@@ -31,7 +34,9 @@
                         <p>MENU</p>
                     </a>
                 </div>
-                <img class="medium-1 columns medium-offset-3 " src="view/images/logo.png" alt="Un C blanc dans un carré noir. Logo du site">
+                <a href="index.php">
+                    <img id="logo" class="medium-1 columns medium-offset-3 " src="view/images/logo.png" alt="Un C blanc dans un carré noir. Logo du site">
+                </a>
                 <div class="renseignements medium-2 medium-offset-3 columns">
                     <p>07.00.00.00.00</p>
                     <p>lalalala@gmail.com</p>
