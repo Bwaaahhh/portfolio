@@ -1,0 +1,47 @@
+$inline : inline ;
+$fontSize : 2rem;
+$fontFamily : Montserrat ;
+$color : red ;
+
+#contact{
+    text-align: center;
+    font-size : $fontSize ;
+    font-family : $fontFamily ;
+    margin-top: 5%;
+    p{
+        display :inline;
+    }
+    input{
+        display : inline ;
+        color : $color;
+        font-size: 2rem;
+        width : 30%;
+    }
+    i{
+        color : $color ;
+        font-size: 1rem;
+    }
+    #formPremiere{
+        margin-top: 5%;
+    }
+    #formTroisieme{
+        select{
+            display : inline ;
+            width : 30% ;
+            color : $color ;
+        }
+    }
+    #formButton{
+        font-size: 0.8rem;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        button{
+            text-transform: uppercase;
+            padding-bottom: 3%;
+        }
+        button:hover{
+            color: red;
+            border-bottom: 5px solid red;
+        }
+    }
+}

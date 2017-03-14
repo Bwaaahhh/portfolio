@@ -1,20 +1,43 @@
-<div class="row">
-    <p class="large-2 large-centered columns">Bonjour Cyril,</p>
-    <div class="">
-        <p>Je suis </p>
-        <input type="text" name="" value="" placeholder="nom & Prenom">
-        <p>et je vous contacte de la part de</p>
-        <input type="text" name="" value="" placeholder="nom de la société">
-        <p>pour discuter</p>
-        <select class="" name="">
-            <option value="">Coucou</option>
-            <option value="">lala</option>
-        </select>
-    .
+<div id="contact">
+    <div class="row">
+        <p class="large-4 large-centered columns end" id="intro">Bonjour Cyril,</p>
+        <div class="large-12 columns end" id="formPremiere">
+            <p class="">Je suis </p>
+            <input class=""type="text" name="" value="nom & Prenom"><i class="fa fa-pencil" aria-hidden="true"></i>
+            <p>et je vous contacte de la </p>
+        </div>
+        <div class="" id="formDeuxieme">
+            <p>part de</p>
+            <input class="" type="text" name="" value="nom de la société"><i class="fa fa-pencil" aria-hidden="true"></i>
+            <p>pour discuter</p>
+        </div>
+        <div class="" id="formTroisieme">
+            <p>d'un</p>
+            <select class="" name="">
+                <option value="">entretien</option>
+                <option value="">d'une offre d'emploi</option>
+                <option value="">d'un projet</option>
+            </select><i class="fa fa-arrow-down" aria-hidden="true"></i>.
+        </div>
+        <p>Merci d'avance de bien vouloir me répondre</p>
+        <div class="" id="formQuatre">
+            <p>à</p>
+            <input type="text" name="" value="mon adress e-mail"><i class="fa fa-pencil" aria-hidden="true"></i>
+            <p>ou bien contactez-moi</p>
+        </div>
+        <div class="" id="formCinq">
+            <p>simpement par téléphone au</p>
+            <input type="text" name="" value=" +33 .....">
+        </div>
+        <div class="row">
+            <p class="large-2 large-centered columns">à bientot</p>
+        </div>
+        <div class="row">
+            <p class="large-2 large-centered columns">//</p>
+        </div>
+        <div class="row" id="formButton">
+            <button class="large-3 columns large-offset-2">réinitialiser le message</button>
+            <button class="large-3 large-offset-2 columns end ">envoyer le message</button>
+        </div>
     </div>
-
-    <p>Merci d'avance de bien vouloir me répondre à mon adress e-mail ou bien contactez-moi simpement par téléphone au +33 ..... </p>
-    <p>à bientot</p>
-    <p>//</p>
-    <button>réinitialiser le message</button><button>envoyer le message</button>
 </div>
