@@ -38,13 +38,14 @@ $color : red ;
             height: auto;
             color : $color ;
             border : none;
+            padding-right: 0;
             box-shadow: none ;
             font-size: 2rem;
             appearance:none;
             -moz-appearance:none; /* Firefox */
             -webkit-appearance: none;
             background: url(../images/arrow-down.png) no-repeat right;
-            background-position-x: 185px;
+            background-position-x: 220px;
         }
         select:focus{
             outline: none;

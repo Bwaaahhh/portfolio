@@ -3,3 +3,5 @@
 style.css.map
 pdo.php
 CV.pdf
+node_modules/*
+.ftppass

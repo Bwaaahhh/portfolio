@@ -41,7 +41,7 @@
             </div>
             <div class="row" id="formButton">
                 <button class="large-3 columns large-offset-2" id="resetForm">réinitialiser le message</button>
-                <button class="large-3 large-offset-2 columns end ">envoyer le message</button>
+                <button class="large-3 large-offset-2 columns end" type="submit">envoyer le message</button>
             </div>
         </form>
     </div>
