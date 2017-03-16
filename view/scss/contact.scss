@@ -15,7 +15,7 @@ $color : red ;
         display : inline ;
         color : $color;
         font-size: 2rem;
-        width : 25%;
+        width : 27%;
         border : none ;
         box-shadow: none ;
         border-bottom: 1px solid $color ;
@@ -26,6 +26,12 @@ $color : red ;
         color : $color ;
         font-size: 1rem;
         margin-right: 1%;
+    }
+    .error{
+        font-size: 0.8rem;
+    }
+    #obligation{
+        display: block;
     }
     #formPremiere{
         margin-top: 5%;

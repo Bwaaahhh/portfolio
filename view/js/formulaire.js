@@ -5,7 +5,10 @@ $( document ).ready(function() {
         });
         $('#resetForm').on('click' , function(e){
             e.preventDefault();
-            $('.inputForm').val("");
+            $('#nameForm').val("nom & prenom");
+            $('#societeForm').val("nom de la société");
+            $('#mailForm').val("mon adresse e-mail");
+            $('#phoneForm').val("+33");
             $('.selectForm').val("");
         });
 
