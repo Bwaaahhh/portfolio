@@ -15,7 +15,9 @@
                             <p><?= $row->annee_prod ?></p>
                             <p><?= $row->nom ?></p>
                             <p><?= $row->description ?></p>
-                            <button type="button" name="button" idProjet=" <?= $row->id_projet ?>">decouvrir ce projet</button>
+                            <a href="index.php?projet=<?= $row->nom ?>&page=focusprojet">
+                                <button type="button" name="button" idProjet=" <?= $row->id_projet ?>">decouvrir ce projet</button>
+                            </a>
                         </div>
                     </div>
                 </div>

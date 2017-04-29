@@ -38,7 +38,7 @@ session_start();
                         <p>MENU</p>
                     </a>
                 </div>
-                <a href="index.php">
+                <a href="index.php" title="Accueil">
                     <img id="logo" class="medium-1 columns medium-offset-3 " src="view/images/logo.png" alt="Un C blanc dans un carré noir. Logo du site">
                 </a>
                 <div class="renseignements medium-2 medium-offset-3 columns">
