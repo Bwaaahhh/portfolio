@@ -1,0 +1,24 @@
+#focusProjet{
+    #infos{
+        background-color: #191919;
+        div{
+            padding-top: 1%;
+            padding-bottom: 1%;
+            .descripInfo{
+                color: darkgrey ;
+                border-bottom: 1px grey solid ;
+            }
+            .detailsInfo{
+                color : white ;
+            }
+        }
+    }
+    .next{
+        position: relative;
+        .nextp{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+    }
+}
