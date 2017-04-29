@@ -10,11 +10,11 @@
         <?php foreach( $result as $row){ ?>
                 <div class="row">
                     <div class="projet">
-                        <img src=<?= $row->first_picture ?> alt="">
+                        <img src="view/images/<?= $row->image ?>" alt="">
                         <div class="focus_projet">
                             <p><?= $row->annee_prod ?></p>
                             <p><?= $row->nom ?></p>
-                            <p><?= $row->description ?></p>
+                            <p><?= $row->hastag ?></p>
                             <a href="index.php?projet=<?= $row->nom ?>&page=focusprojet">
                                 <button type="button" name="button" idProjet=" <?= $row->id_projet ?>">decouvrir ce projet</button>
                             </a>
