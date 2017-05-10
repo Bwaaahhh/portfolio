@@ -24,13 +24,31 @@
         </div>
     </div>
     <div class="row">
+        <div class="large-6 columns">
+            <p><?= $result->description ?></p>
+        </div>
+        <div class="large-6 columns end">
+            <img src="<?= $result->image2 ?>" alt="">
+        </div>
+    </div>
+    <div class="row">
         <div class="next large-5 columns">
-            <img src="view/images/<?= $result->image ?>" alt="">
-            <p class="nextp">Projet précédent</p>
+            <?php $resultPrev = $portfolio->getPicturePrevProject($result->ordre) ; ?>
+            <img src="view/images/<?= $resultPrev->image ?>" alt="">
+            <a href="index.php?page=focusprojet&projet=<?= $resultPrev->nom ?>">
+                <p class="nextp">Projet précédent</p>
+            </a>
         </div>
         <div class="next large-5 large-offset-2 columns end">
-            <img src="view/images/<?= $result->image ?>" alt="">
-            <p class="nextp">Projet suivant</p>
+            <?php if($result->ordre == 3 ){
+                $resultNext = $portfolio->getPictureFirstProject() ;
+            }else{
+                $resultNext = $portfolio->getPictureNextProject($result->ordre);
+            }?>
+            <img src="view/images/<?= $resultNext->image ?>" alt="">
+            <a href="index.php?page=focusprojet&projet=<?= $resultNext->nom ?>">
+                <p class="nextp">Projet suivant</p>
+            </a>
         </div>
     </div>
 </div>
