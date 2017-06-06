@@ -5,7 +5,9 @@
     </div>
     <div class="row" id="infos">
         <div class="large-3 columns text-center">
-            <p class="descripInfo large-12 columns">Année Prod</p>
+            <div class="descripInfo large-12 columns">
+                <p class="">Année Prod</p>
+            </div>
             <p class="detailsInfo large-12 columns end"><?= $result->annee_prod ?></p>
         </div>
         <div class="large-3 columns text-center">

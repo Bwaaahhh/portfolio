@@ -25,9 +25,9 @@ session_start();
                         <p>fermer</p>
                     </div>
                     <div class="visu_menu">
-                        <div class="large-4 columns"><a href="index.php?page=apropos"><p>A PROPOS</p></a></div>
-                        <div class="large-4 columns"><a href="index.php?page=projet"><p>PROJETS</p></a></div>
-                        <div class="large-4 columns end"><a href="index.php?page=contact"><p>CONTACT</p></a></div>
+                        <div class="large-4 columns"><a href="index.php?page=apropos"><p class="text_menu">A PROPOS</p></a></div>
+                        <div class="large-4 columns"><a href="index.php?page=projet"><p class="text_menu">PROJETS</p></a></div>
+                        <div class="large-4 columns end"><a href="index.php?page=contact"><p class="text_menu">CONTACT</p></a></div>
                     </div>
                 </div>
             </div>

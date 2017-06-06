@@ -1,12 +1,26 @@
 #focusProjet{
     #infos{
         background-color: #191919;
+        margin-bottom: 3%;
+        border-radius: 10px;
         div{
             padding-top: 1%;
             padding-bottom: 1%;
             .descripInfo{
                 color: darkgrey ;
-                border-bottom: 1px grey solid ;
+                position: relative;
+                // p{
+                //     border-bottom: 1px grey solid ;
+                // }
+                p::before{
+                    content: "";
+                    position: absolute;
+                    color: grey;
+                    height: 5px;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                }
             }
             .detailsInfo{
                 color : white ;
